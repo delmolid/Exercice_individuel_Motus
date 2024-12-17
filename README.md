@@ -1,1 +1,1 @@
-# Exercice_individuel_Motus
+#Étape 1 : Commencez par intégrer le code en annexe dans des fichiers HTML et JS. Faites le tour de ce qui fonctionne et de ce qui ne fonctionne pas.
