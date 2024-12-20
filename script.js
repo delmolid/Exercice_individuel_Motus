@@ -1,7 +1,6 @@
 
 function tryWord(word, base) {
-	// TODO: fix jeu sensible à la casse.
-	if (word === base) {
+	if (word.toUpperCase() === base.toUpperCase()) {
 		return { wellPlaced: base.split(''), missplaced: [], notInWord: [] };
 
   } else {
