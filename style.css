@@ -1,0 +1,87 @@
+/* Styles globaux */
+/* Couleur de fond pour victoire */
+.body-win {
+    background-color: #4caf50 !important; /* Vert pour victoire */
+    color: white; /* Couleur du texte pour contraste */
+    transition: background-color 0.5s ease; /* Transition douce */
+  }
+  
+  /* Couleur de fond pour échec */
+  .body-fail {
+    background-color: #e53935 !important; /* Rouge pour échec */
+    color: white; /* Couleur du texte pour contraste */
+    transition: background-color 0.5s ease; /* Transition douce */
+  }
+  
+  
+  /* En-tête */
+  header {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #ff6f61;
+    text-align: center;
+    width: 100%;
+    padding: 1rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Conteneur principal */
+  #conteneurA, #conteneurB {
+    margin: 1.5rem 0;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  /* Champ de texte */
+  #word {
+    width: 70%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    outline: none;
+    margin-bottom: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  #word:focus {
+    border-color: #ff6f61;
+  }
+  
+  /* Bouton */
+  button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #ff6f61;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #e65c50;
+  }
+  
+  /* Paragraphes de résultats */
+  #conteneurB p {
+    color: black;
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styles pour l'état spécifique */
+  #win {
+    color: black;
+    background-color: #4caf50; /* Vert pour victoire */
+    font-weight: bold;
+  }
+  

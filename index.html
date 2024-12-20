@@ -1,17 +1,27 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Motus</title>
     <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-     <input id="word"/>
-     <button onclick="guess()">Ok</button>
-     <p id="try"></p>
-     <p id="well"></p>
-     <p id="miss"></p>
-     <p id="not"></p>
-     <p id="win"></p>
+    <header>MOTUS GAME</header>
+    <div id="conteneurA">
+      <label for="word">Entrez un mot :</label>
+      <input id="word" aria-label="Mot à deviner" />
+      <button onclick="guess()" aria-label="Soumettre le mot pour vérifier">
+        Soumettre
+      </button>
+    </div>
+    <div id="conteneurB">
+      <p id="try"></p>
+      <p id="well"></p>
+      <p id="miss"></p>
+      <p id="not"></p>
+      <p id="win"></p>
+      <p id="error" role="alert" style="color: red"></p>
+    </div>
   </body>
 </html>
